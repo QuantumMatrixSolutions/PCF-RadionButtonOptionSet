@@ -1,0 +1,33 @@
+.qms\.RadioButtonOptionSet div.container {
+    left: 8px;
+    display: table-cell;
+}
+
+.qms\.RadioButtonOptionSet div.cell {
+    padding-right: 2rem;
+    line-height: 2rem;
+}
+
+.qms\.RadioButtonOptionSet input[type="radio"] {
+    background: transparent;
+    border-style: none;
+    font-size: 1.0rem;
+    width: inherit;
+    box-sizing:border-box;
+    border-radius: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: 0 !important;
+}
+
+.qms\.RadioButtonOptionSet label {
+    background: transparent;
+    border-style: none;
+    font-size: 1.0rem;
+    width: inherit;
+    box-sizing:border-box;
+    border-radius: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: 0 !important;
+}
