@@ -1,7 +1,29 @@
-.qms\.RadioButtonOptionSet div.container {
+.qms\.RadioButtonOptionSet .container {
     left: 8px;
-    display: table-cell;
+    width: inherit;
+    box-sizing:border-box;
 }
+
+.qms\.RadioButtonOptionSet .container.readonly {
+    border:0px;
+    padding-left:8px;
+    left:8px;
+    line-height: 2.5em;
+    width: inherit;
+    box-sizing:border-box;
+}
+
+.qms\.RadioButtonOptionSet .container.readonly:hover {
+    background-color: #e2e2e2;
+    border:0px;
+    padding-left:8px;
+    left:8px;
+    line-height: 2.5em;
+    width: inherit;
+    box-sizing:border-box;
+    cursor: default;
+}
+
 
 .qms\.RadioButtonOptionSet div.cell {
     padding-right: 2rem;
